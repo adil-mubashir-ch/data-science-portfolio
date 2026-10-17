@@ -186,9 +186,8 @@ Lots of candidates have done the same guided projects (DataCamp, Kaggle starters
 
 ## Project index
 
-| # | Project | Slug | Source | Status |
+| # | Project | Slug | Status |
 |---|---|---|---|---|
-| 1 | Sowing Success: Crop Recommendation Lab | `predictive_modeling_for_agriculture` | DataCamp guided project | Live: interactive ML lab |
-| 2 | _TBD_ | | DataCamp guided project | Notebook in progress |
+| 1 | Sowing Success: Crop Recommendation Lab | `predictive_modeling_for_agriculture` | Live: interactive ML lab |
+| 2 | _TBD_ | | Notebook in progress |
 
-Planned DataCamp projects: [1772](https://app.datacamp.com/learn/projects/1772), [1965](https://app.datacamp.com/learn/projects/1965).
