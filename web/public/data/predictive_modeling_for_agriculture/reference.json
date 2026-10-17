@@ -1,0 +1,169 @@
+{
+  "sklearnVersion": "1.9.1",
+  "split": "train_test_split(test_size=0.2, random_state=42), as in the notebook",
+  "models": [
+    {
+      "name": "Logistic regression (notebook, unscaled)",
+      "train": 0.7153,
+      "test": 0.6591,
+      "f1": 0.6462
+    },
+    {
+      "name": "Logistic regression + StandardScaler",
+      "train": 0.708,
+      "test": 0.6591,
+      "f1": 0.6495
+    },
+    {
+      "name": "k-NN (k=5), unscaled",
+      "train": 0.7807,
+      "test": 0.6386,
+      "f1": 0.6318
+    },
+    {
+      "name": "k-NN (k=5) + StandardScaler",
+      "train": 0.8324,
+      "test": 0.7386,
+      "f1": 0.7241
+    },
+    {
+      "name": "Gaussian Naive Bayes",
+      "train": 0.796,
+      "test": 0.775,
+      "f1": 0.7605
+    },
+    {
+      "name": "Decision tree (no depth limit)",
+      "train": 1.0,
+      "test": 0.7818,
+      "f1": 0.7705
+    },
+    {
+      "name": "Random forest (200 trees)",
+      "train": 1.0,
+      "test": 0.8114,
+      "f1": 0.7997
+    },
+    {
+      "name": "Neural network (64-64) + StandardScaler",
+      "train": 0.8352,
+      "test": 0.7773,
+      "f1": 0.7659
+    }
+  ],
+  "singleFeatureLogReg": {
+    "N": 0.1455,
+    "P": 0.1932,
+    "K": 0.2705,
+    "ph": 0.0977
+  },
+  "randomForestSubsets": [
+    {
+      "features": [
+        "N"
+      ],
+      "test": 0.1341
+    },
+    {
+      "features": [
+        "P"
+      ],
+      "test": 0.1932
+    },
+    {
+      "features": [
+        "K"
+      ],
+      "test": 0.3205
+    },
+    {
+      "features": [
+        "ph"
+      ],
+      "test": 0.1386
+    },
+    {
+      "features": [
+        "N",
+        "P"
+      ],
+      "test": 0.3727
+    },
+    {
+      "features": [
+        "N",
+        "K"
+      ],
+      "test": 0.5273
+    },
+    {
+      "features": [
+        "N",
+        "ph"
+      ],
+      "test": 0.2773
+    },
+    {
+      "features": [
+        "P",
+        "K"
+      ],
+      "test": 0.5545
+    },
+    {
+      "features": [
+        "P",
+        "ph"
+      ],
+      "test": 0.3795
+    },
+    {
+      "features": [
+        "K",
+        "ph"
+      ],
+      "test": 0.4773
+    },
+    {
+      "features": [
+        "N",
+        "P",
+        "K"
+      ],
+      "test": 0.6773
+    },
+    {
+      "features": [
+        "N",
+        "P",
+        "ph"
+      ],
+      "test": 0.6068
+    },
+    {
+      "features": [
+        "N",
+        "K",
+        "ph"
+      ],
+      "test": 0.6795
+    },
+    {
+      "features": [
+        "P",
+        "K",
+        "ph"
+      ],
+      "test": 0.6864
+    },
+    {
+      "features": [
+        "N",
+        "P",
+        "K",
+        "ph"
+      ],
+      "test": 0.8114
+    }
+  ]
+}
